@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.simple{
+    font-family: Ubuntu;
+font-weight: 300;
+font-size: 20px;
+line-height: 100%;
+margin-left: 25px;
+}
+
+.header_menu{
+ font-family: Roboto;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+display: flex;
+gap: 60px;
+list-style: none;
+text-decoration: none;
+margin-left: 550px;
+}
+
+.logos{
+cursor: pointer;
+justify-content: center;
+align-items: center;
+width: 75px;
+height: 24;
+gap: 30px;
+margin-right: 10px;
+}
+
+.header_menu li a{
+width: 10;
+height: 23;
+gap: 10px;
+color: #000000;
+text-decoration:none;
+
+}
+
+.header-container{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items:center;
+}
+
+.about-container{
+margin-left: 25px;
+}
+
+.about-tittle{
+font-family: Roboto;
+font-weight: 400;
+font-size: 60px;
+line-height: 100%;
+ display: flex;
+    margin-top: 130px;
+   
+}
+
+.about-text{
+font-family: Roboto;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+margin-top: 10px;
+  
+
+
+}
+
+.about-image{
+ display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.btn{
+width: 255px;
+height: 70px;
+opacity: 1;
+border-width: 1px;
+top: 290px;
+gap: 6px;
+padding-top: 20px;
+padding-right: 50px;
+padding-bottom: 20px;
+padding-left: 50px;
+cursor: pointer;
+border: #7875FE solid 1px;
+transition: all 0.15s ease;
+}
+
+.btn:hover{
+background-color: #7875FE;
+color: #f7f7fa;
+}
+
+.btn:active{
+    transform: scale(0.95);
+box-shadow: 0 2px 5px;
+}
